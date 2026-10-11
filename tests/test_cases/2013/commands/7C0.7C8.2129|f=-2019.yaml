@@ -1,0 +1,8 @@
+command_id: 7C0.7C8.2129|f=-2019
+test_cases:
+- expected_values:
+    GT86_FLI_VOL: 12
+  response: 7C803612918
+- expected_values:
+    GT86_FLI_VOL: 47
+  response: 7C80361295E
