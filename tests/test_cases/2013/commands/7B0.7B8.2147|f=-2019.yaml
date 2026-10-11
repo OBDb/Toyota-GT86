@@ -1,0 +1,56 @@
+command_id: 7B0.7B8.2147|f=-2019
+test_cases:
+- expected_values:
+    GT86_LAT_G: 0
+    GT86_LNG_G: 0
+    GT86_STEER_ANGLE: 411.6
+    GT86_YAW_RATE: -7
+  response: 7B80761470000799014
+- expected_values:
+    GT86_LAT_G: 0
+    GT86_LNG_G: 0
+    GT86_STEER_ANGLE: -0.1
+    GT86_YAW_RATE: 0
+  response: 7B80761470000807FFF
+- expected_values:
+    GT86_LAT_G: 0
+    GT86_LNG_G: 0
+    GT86_STEER_ANGLE: 0
+    GT86_YAW_RATE: 0
+  response: 7B80761470000808000
+- expected_values:
+    GT86_LAT_G: 0
+    GT86_LNG_G: 0.02
+    GT86_STEER_ANGLE: -451.5
+    GT86_YAW_RATE: 4
+  response: 7B80761470001846E5D
+- expected_values:
+    GT86_LAT_G: 0
+    GT86_LNG_G: -0.06
+    GT86_STEER_ANGLE: 446
+    GT86_YAW_RATE: -8
+  response: 7B807614700FD78916C
+- expected_values:
+    GT86_LAT_G: 0
+    GT86_LNG_G: -0.02
+    GT86_STEER_ANGLE: -292.2
+    GT86_YAW_RATE: -17
+  response: 7B807614700FF6F7496
+- expected_values:
+    GT86_LAT_G: 0.32
+    GT86_LNG_G: -0.1
+    GT86_STEER_ANGLE: 351.2
+    GT86_YAW_RATE: 36
+  response: 7B807614710FBA48DB8
+- expected_values:
+    GT86_LAT_G: -0.34
+    GT86_LNG_G: 0.02
+    GT86_STEER_ANGLE: -139.3
+    GT86_YAW_RATE: -27
+  response: 7B8076147EF01657A8F
+- expected_values:
+    GT86_LAT_G: -0.02
+    GT86_LNG_G: 0
+    GT86_STEER_ANGLE: -3.6
+    GT86_YAW_RATE: -2
+  response: 7B8076147FF007E7FDC
