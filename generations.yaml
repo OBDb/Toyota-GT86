@@ -1,0 +1,8 @@
+references:
+  - "https://en.wikipedia.org/wiki/Toyota_86"
+
+generations:
+  - name: "First Generation (ZN6)"
+    start_year: 2012
+    end_year: 2021
+    description: "The rear-wheel-drive coupe developed with Subaru alongside the BRZ, with the 2.0 L FA20 boxer engine; sold as the GT86 in Europe."
