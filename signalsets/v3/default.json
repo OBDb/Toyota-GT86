@@ -65,7 +65,7 @@
   ]},
 { "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10E3"}, "freq": 1,
   "signals": [
-    {"id": "GT86_CRUISE_VSS_T", "path": "Cruise control", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise speed, set"}
+    {"id": "GT86_CRUISE_VSS_T", "path": "Cruise control", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise speed, set", "suggestedMetric": "cruiseSetSpeed"}
   ]},
 { "hdr": "7A2", "rax": "7AA", "dbg": true, "cmd": {"22": "10E5"}, "freq": 30,
   "signals": [
@@ -240,8 +240,8 @@
   ]},
 { "hdr": "7B0", "rax": "7B8", "cmd": {"21": "47"}, "freq": 0.25, "filter": { "to": 2019 }, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
-    {"id": "GT86_LAT_G",       "path": "Orientation", "fmt": {           "len": 8,  "max": 2.5,    "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Lateral g"},
-    {"id": "GT86_LNG_G",       "path": "Orientation", "fmt": {"bix": 8,  "len": 8,  "max": 2.5,    "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Longitudinal g"},
+    {"id": "GT86_LAT_G",       "path": "Orientation", "fmt": {           "len": 8,  "max": 2.5,    "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Lateral g",            "suggestedMetric": "lateralAcceleration"},
+    {"id": "GT86_LNG_G",       "path": "Orientation", "fmt": {"bix": 8,  "len": 8,  "max": 2.5,    "min": -2.5,  "div": 50,                 "sign": true, "unit": "gravity" }, "name": "Longitudinal g",       "suggestedMetric": "longitudinalAcceleration"},
     {"id": "GT86_YAW_RATE",    "path": "Orientation", "fmt": {"bix": 16, "len": 8,  "max": 127,    "min": -128,             "add": -128,                  "unit": "degrees" }, "name": "Yaw rate"},
     {"id": "GT86_STEER_ANGLE", "path": "Control",     "fmt": {"bix": 24, "len": 16, "max": 3276.7, "min": -3276, "div": 10, "add": -3276.8,               "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
